@@ -24,7 +24,7 @@ t = np.linspace(0, 1.5e-14, 500)
 
 waves = {}
 
-# ROYGBIV Waves 
+# ROYGBIV frequency waves 
 for color, wavelength in rainbow_wavelengths.items():
     f = c / (wavelength * 1e-9)
     sample_rate = int(samples_per_cycle * f)
